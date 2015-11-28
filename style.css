@@ -71,6 +71,7 @@ body ul {
 {
 	color: #333;
 	background-color: #101010;
+	max-width:100%;
 	/*margin:          0 20px;*/
 	height:          50px;
 	/*padding:         5px 0;*/	
@@ -338,6 +339,7 @@ spacer1 {
 
 #footer
 {
+	/*display: block;*/
 	margin:          0 auto;
 	width:           641px;
 	height:          39px;
@@ -354,3 +356,115 @@ spacer1 {
 	text-align: center;
 	color:           #767676;
 }
+
+
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ 
+
+}
+
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
+}
+
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+
+}
+
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+
+
+}
+
+@media (min-width:1025px) {
+
+body{
+	max-width:100%;
+}
+
+#menu{
+	max-width:100%;
+}
+
+#menu ul{
+	max-width: 100%;
+}
+
+#container{
+	max-width: 100%;
+	/*overflow: auto;*/
+}
+
+#content{
+	max-width: 100%;
+}
+
+#insidecontent{
+	max-width: 100%;
+}
+
+#LMD1{
+	width:90%;
+	height:auto;
+}
+
+#LMD2{
+	width:90%;
+	height:auto;
+	padding-left: 5%;
+}
+
+#LMD4{
+	width:90%;
+	height:auto;
+	padding-left:5%;
+}
+
+#LMD5{
+	width:90%;
+	height:auto;
+	padding-top:10%;
+}
+
+#conf1{
+	width:20%;
+	height:auto;
+}
+
+#conf2{
+	width:30%;
+	height:auto;
+}
+
+#conf3{
+	width:30%;
+	height:auto;
+}
+
+#conf4{
+	width:30%;
+	height:auto;
+}
+
+#conf5{
+	width:30%;
+	height:auto;
+}
+
+#conf6{
+	width:30%;
+	height:auto;
+}
+
+#conf7{
+	width:30%;
+	height:auto;
+}
+
+}
+
+@media (min-width:1280px){
+
+
+}
+
